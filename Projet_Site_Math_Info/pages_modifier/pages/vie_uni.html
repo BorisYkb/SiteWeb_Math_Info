@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Vie Universitaire | MI</title>
+
+    <link rel="stylesheet" href="formation.css">
+    <link rel="icon" href="../images/logo_ufr_MI-transparent.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .section {
+            background-color: #fff;
+            padding: 50px 20px;
+            margin-bottom: 20px;
+        }
+
+        .section h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 36px;
+            color: #333;
+        }
+
+        .section p {
+            text-align: center;
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 40px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .department,
+        .services {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .department-card,
+        .service-card {
+            background-color: #e6f2ff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            margin: 20px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .department-card img,
+        .service-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .department-card h3,
+        .service-card h3 {
+            font-size: 24px;
+            color: #333;
+            margin: 20px 0 10px;
+        }
+
+        .department-card p,
+        .service-card p {
+            font-size: 16px;
+            color: #777;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="navig">
+        <nav>
+            <a href="../index.html" class="logo"><img src="../images/logo_ufr_MI.png" alt="Logo de MI"></a>
+            <div class="bx bx-menu" id="menu"></div>
+
+            <ul class="listnav">
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="#">UFR</a>
+                    <ul class="dropdown1">
+                        <li><a href="presentation.html">Présentation</a></li>
+                        <li><a href="equipe_adm_et_pedago.html">Equipe</a></li>
+                        <li><a href="venir_a_ufr.html">Venir à l'UFR</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="formartion.html">Formations</a>
+                    <ul class="dropdown2">
+                        <li><a href="#licence">Licence</a></li>
+                        <li><a href="#master">Master</a></li>
+                        <li><a href="#doctorat">Doctorat</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Etudiant</a>
+                    <ul class="dropdown1">
+                        <li><a href="../connexion/inscription_etudiant.php">Inscription</a></li>
+                        <li><a href="../connexion/connexion.php">Connexion</a></li>
+                        <li><a href="centre_academique.html">Centre Académique</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="#">Recherche</a>
+                    <ul class="dropdown2">
+                        <li><a href="https://lami.appli.edu.ci/">LAMI</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="#">Bibliothèque</a>
+                    <ul class="dropdown1">
+                        <li><a href="../actions/liste_cours&td.php">Cours & TD</a></li>
+                        <li><a href="../actions/liste_article&memoire.php">Article & Mémoire</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <div class="touch-nav">
+                <a href="connexion/connexion.php" class="touch1">Connexion</a>
+            </div>
+        </nav>
+
+        <div class="acroche">
+            <div class="texte-acroche">
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="pre">Le Département de Mathématiques et Informatique propose divers programmes d’études pour répondre
+        aux besoins académiques
+        et professionnels des étudiants</div>
+
+
+
+
+    <section class="section">
+        <h2>Vie Universitaire - UFR de Mathématiques et d'Informatique</h2>
+        <p>La vie universitaire à l'Université Félix Houphouët-Boigny (UFHB) est riche et dynamique, offrant aux étudiants une
+        expérience complète qui va au-delà des études académiques. Les étudiants bénéficient d'un environnement propice à
+        l'apprentissage, au développement personnel, et à la socialisation.</p>
+    </section>
+
+    <!-- Section des départements -->
+    <section class="section">
+        <h2>Résidences Universitaires</h2>
+        <div class="department">
+            <div class="department-card">
+                <img src="chemin/vers/mathematiques.jpg" alt="Département de Mathématiques">
+                <h3>Résidences Universitaires de Cocody</h3>
+                
+            </div>
+            <div class="department-card">
+                <img src="chemin/vers/informatique.jpg" alt="Département d'Informatique">
+                <h3>Résidences Universitaires de Abobo</h3>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Section des services -->
+    <section class="section">
+        <h2>Installations Sportives</h2>
+        <div class="services">
+            <div class="service-card">
+                <img src="../images/personnel.jpg" alt="Service de Tutorat">
+                <h3>Terrain de Tennis</h3>
+                
+            </div>
+            <div class="service-card">
+                <img src="../images/Bibliothèque.jpg" alt="Bibliothèque">
+                <h3>Terrain de Basket</h3>
+                
+            </div>
+            <div class="service-card">
+                <img src="../images/OIP.jpg" alt="Centre de Recherche">
+                <h3>Terrain de Vollet</h3>
+                
+            </div>
+        </div>
+    </section>
+
+
+
+    <div class="footer" id="Nous contacter">
+        <div class="footer_option">
+            <div class="opt1">
+                <h4>FORMATION</h4>
+                <ul class="liste">
+                    <li><a href="#licence">Licence</a></li>
+                    <li><a href="master">Master</a></li>
+                    <li><a href="doctorat">Doctorat</a></li>
+                </ul>
+            </div>
+            <div class="opt2">
+                <h4>CONTACT UFR</h4>
+                <ul class="liste">
+                    <li><a href="">07-07-07-91-91</a></li>
+                    <li><a href="">07-07-61-73-14</a></li>
+                </ul>
+            </div>
+            <div class="opt3">
+                <h4>A PROPOS</h4>
+                <ul class="liste">
+                    <li><a href="https://lami.appli.edu.ci/">Laboratoire</a></li>
+                    <li><a href="galerie.html">Galerie photo</a></li>
+                    <li><a href="vie_uni.html">Vie universitaire</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!--<h3>Inscrivez-vous pour ne rien ratter de nos <span>actualités</span></h3>
+            <div class="newslatter">
+                <input type="text" placeholder="entrer votre mail">
+                <a href="#" class="footer-touch">S'inscrire</a>
+            </div>-->
+
+        <a href="../index.html"><img src="../images/logo_ufr_MI-transparent.png" alt=""></a>
+
+    </div>
+
+    <div class="copyright">
+        <p>© 2024 Math-Info - UFHB Cocody - Mentions légales - Gestion des cookies</p>
+        <div class="icone">
+            <a href="#"><i class='bx bx-phone'></i></a>
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></i></a>
+        </div>
+    </div>
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="../Pojet1.js"></script>
+
+
+</body>
+
+</html>
